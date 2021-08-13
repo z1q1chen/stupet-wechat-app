@@ -1,0 +1,29 @@
+/**index.wxss**/
+.container {
+  background-color: #fff;
+  min-height: 100%;
+  align-items: stretch;
+  overflow-x: hidden;
+  position: relative;
+}
+.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loading .img {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.loading .text {
+  margin-top: 20rpx;
+  width: 100%;
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+}

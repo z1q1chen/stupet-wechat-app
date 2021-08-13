@@ -1,0 +1,17 @@
+<!--components/myModal/myModal.wxml-->
+<view>
+  <van-cell-group inset>
+    <van-cell class="userCard" is-link value="个人信息" >
+      <view class="avatar" slot="icon">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="userNickName" slot="title">
+        <open-data type="userNickName"></open-data>
+      </view>
+      
+    </van-cell>
+    <!-- <van-cell title="单元格" value="内容" label="描述信息" /> -->
+    <!-- <slot name="avatar"></slot>
+    <slot name="userNickName"></slot> -->
+  </van-cell-group>
+</view>

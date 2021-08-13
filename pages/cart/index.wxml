@@ -1,0 +1,7 @@
+<view class="loading" style="height:{{sysHeight}}px" wx:if="{{loading == 0}}">
+  <van-loading />
+  <view class="text">读取中</view>
+</view>
+<view class="container" wx:else>
+  shopping cart
+</view>

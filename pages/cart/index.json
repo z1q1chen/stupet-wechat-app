@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "STUPET",
+  "usingComponents": {
+    "van-loading": "@vant/weapp/loading/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "my-modal":"/components/myModal/myModal"
+  }
+}

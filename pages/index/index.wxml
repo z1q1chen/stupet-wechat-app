@@ -1,0 +1,13 @@
+<view class="loading" style="height:{{sysHeight}}px" wx:if="{{loading == 0}}">
+  <van-loading />
+  <view class="text">读取中</view>
+</view>
+<view class="container" wx:else>
+  <view class="search">
+    <van-search value="{{ value }}" shape="round" placeholder="请输入搜索关键词" show-action bind:search="onSearch" bind:cancel="onCancel" />
+  </view>
+  <!-- <view class="search" bindtap="goSearch">
+    <image class="icon" src="/images/icon/search.png"></image>
+    <text class="txt">搜索,发现更多好物</text>
+  </view> -->
+</view>

@@ -1,0 +1,19 @@
+/* components/myModal/myModal.wxss */
+.avatar{
+  overflow: hidden;
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 10%;
+}
+
+.userNickName{
+  padding-left: 20rpx;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.userCard {
+  height: 500rpx;
+}
